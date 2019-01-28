@@ -14,19 +14,31 @@ class ViewController: UIViewController {
     @IBOutlet weak var playerOneLife: UILabel!
     var playerOneLifeCount = 20
     
+    @IBOutlet weak var playerTwoLife: UILabel!
+    var playerTwoLifeCount = 20
+    
+    @IBOutlet weak var playerThreeLife: UILabel!
+    var playerThreeLifeCount = 20
+    
+    @IBOutlet weak var playerFourLife: UILabel!
+    var playerFourLifeCount = 20
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         playerOneLife.text = String(playerOneLifeCount)
+        playerTwoLife.text = String(playerTwoLifeCount)
+        playerThreeLife.text = String(playerTwoLifeCount)
+        playerFourLife.text = String(playerFourLifeCount)
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    @IBAction func playerOnePlusOne(_ sender: UIButton) {
-        playerOneLifeCount = playerOneLifeCount + 1
+    /*Player One Buttons */
+    @IBAction func playerOneAddFive(_ sender: UIButton) {
+        playerOneLifeCount = playerOneLifeCount + 5
         playerOneLife.text = String(playerOneLifeCount)
     }
     
-    @IBAction func playerOnePlusfive(_ sender: UIButton) {
-        playerOneLifeCount = playerOneLifeCount + 5
+    @IBAction func playerOneAddOne(_ sender: UIButton) {
+        playerOneLifeCount = playerOneLifeCount + 1
         playerOneLife.text = String(playerOneLifeCount)
     }
     
@@ -39,5 +51,30 @@ class ViewController: UIViewController {
         playerOneLifeCount = playerOneLifeCount - 5
         playerOneLife.text = String(playerOneLifeCount)
     }
+    /************************************************************/
+    
+    /*Player Two Buttons */
+    @IBAction func playerTwoAddFive(_ sender: UIButton) {
+        playerTwoLifeCount = playerTwoLifeCount + 5
+        playerTwoLife.text = String(playerTwoLifeCount)
+    }
+    
+    @IBAction func playerTwoAddOne(_ sender: UIButton) {
+        playerTwoLifeCount = playerTwoLifeCount + 1
+        playerTwoLife.text = String(playerTwoLifeCount)
+    }
+
+    @IBAction func playerTwoSubtractOne(_ sender: UIButton) {
+        playerTwoLifeCount = playerTwoLifeCount - 1
+        playerTwoLife.text = String(playerTwoLifeCount)
+    }
+    
+    @IBAction func playerTwoSubtractFive(_ sender: UIButton) {
+        playerTwoLifeCount = playerTwoLifeCount - 5
+        playerTwoLife.text = String(playerTwoLifeCount)
+    }
+    /************************************************************/
+    
 }
+
 
