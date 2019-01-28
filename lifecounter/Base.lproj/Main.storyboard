@@ -205,6 +205,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerFourSubtractOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ktl-XQ-4Gf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="El7-28-W1c">
                                 <rect key="frame" x="256" y="459" width="30" height="30"/>
@@ -213,6 +216,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerFourAddOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="07O-V6-Zpf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3P-4y-kEE">
                                 <rect key="frame" x="35" y="459" width="30" height="30"/>
@@ -221,6 +227,9 @@
                                 <state key="normal" title="-5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerFourSubtractFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wPH-tj-u00"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsp-Om-Mnb">
                                 <rect key="frame" x="310" y="459" width="30" height="30"/>
@@ -229,6 +238,9 @@
                                 <state key="normal" title="+5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerFourAddFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xxo-kn-fG6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uI6-nJ-Oyd">
                                 <rect key="frame" x="35" y="407" width="305" height="44"/>

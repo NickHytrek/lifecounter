@@ -97,6 +97,27 @@ class ViewController: UIViewController {
     }
     /************************************************************/
     
+    /*Player Four Buttons */
+    @IBAction func playerFourAddFive(_ sender: UIButton) {
+        playerFourLifeCount = playerFourLifeCount + 5
+        playerFourLife.text = String(playerFourLifeCount)
+    }
+    
+    @IBAction func playerFourAddOne(_ sender: UIButton) {
+        playerFourLifeCount = playerFourLifeCount + 1
+        playerFourLife.text = String(playerFourLifeCount)
+    }
+    
+    @IBAction func playerFourSubtractOne(_ sender: UIButton) {
+        playerFourLifeCount = playerFourLifeCount - 1
+        playerFourLife.text = String(playerFourLifeCount)
+    }
+    
+    @IBAction func playerFourSubtractFive(_ sender: UIButton) {
+        playerFourLifeCount = playerFourLifeCount - 5
+        playerFourLife.text = String(playerFourLifeCount)
+    }
+    /************************************************************/
 }
 
 
