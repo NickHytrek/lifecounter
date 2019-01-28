@@ -145,6 +145,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerThreeSubtractOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jSv-uf-6DT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dq-wF-TFb">
                                 <rect key="frame" x="257" y="329" width="30" height="30"/>
@@ -153,6 +156,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerThreeAddOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vrq-cc-skZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ga-ha-0ZU">
                                 <rect key="frame" x="36" y="329" width="30" height="30"/>
@@ -161,6 +167,9 @@
                                 <state key="normal" title="-5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerThreeSubtractFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="753-Dm-1qc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3A-MM-sjH">
                                 <rect key="frame" x="311" y="329" width="30" height="30"/>
@@ -169,6 +178,9 @@
                                 <state key="normal" title="+5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerThreeAddFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4c8-0n-tvd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIX-8W-YrQ">
                                 <rect key="frame" x="36" y="277" width="305" height="44"/>

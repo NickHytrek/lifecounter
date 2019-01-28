@@ -75,6 +75,28 @@ class ViewController: UIViewController {
     }
     /************************************************************/
     
+    /*Player Three Buttons */
+    @IBAction func playerThreeAddFive(_ sender: UIButton) {
+        playerThreeLifeCount = playerThreeLifeCount + 5
+        playerThreeLife.text = String(playerThreeLifeCount)
+    }
+    
+    @IBAction func playerThreeAddOne(_ sender: UIButton) {
+        playerThreeLifeCount = playerThreeLifeCount + 1
+        playerThreeLife.text = String(playerThreeLifeCount)
+    }
+    
+    @IBAction func playerThreeSubtractOne(_ sender: UIButton) {
+        playerThreeLifeCount = playerThreeLifeCount - 1
+        playerThreeLife.text = String(playerThreeLifeCount)
+    }
+    
+    @IBAction func playerThreeSubtractFive(_ sender: UIButton) {
+        playerThreeLifeCount = playerThreeLifeCount - 5
+        playerThreeLife.text = String(playerThreeLifeCount)
+    }
+    /************************************************************/
+    
 }
 
 
