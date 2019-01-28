@@ -12,24 +12,32 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var playerOneLife: UILabel!
-    
+    var playerOneLifeCount = 20
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        playerOneLife.text = String(playerOneLifeCount)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func playerOnePlusOne(_ sender: UIButton) {
+        playerOneLifeCount = playerOneLifeCount + 1
+        playerOneLife.text = String(playerOneLifeCount)
     }
     
     @IBAction func playerOnePlusfive(_ sender: UIButton) {
+        playerOneLifeCount = playerOneLifeCount + 5
+        playerOneLife.text = String(playerOneLifeCount)
     }
     
-    @IBAction func playerOneMinusOne(_ sender: UIButton) {
+    @IBAction func playerOneSubtractOne(_ sender: UIButton) {
+        playerOneLifeCount = playerOneLifeCount - 1
+        playerOneLife.text = String(playerOneLifeCount)
     }
     
-    @IBAction func playerOneMinusFive(_ sender: UIButton) {
+    @IBAction func playerOneSubtractFive(_ sender: UIButton) {
+        playerOneLifeCount = playerOneLifeCount - 5
+        playerOneLife.text = String(playerOneLifeCount)
     }
-    
 }
 

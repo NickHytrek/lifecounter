@@ -26,8 +26,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="DecrementOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S0i-YD-RTe"/>
-                                    <action selector="playerOneMinusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BO6-dj-W82"/>
+                                    <action selector="playerOneSubtractOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cEM-eR-02N"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quJ-sy-oTe">
@@ -49,8 +48,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="DecrementOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ja4-nI-RgO"/>
-                                    <action selector="playerOneMinusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qt2-8g-ISa"/>
+                                    <action selector="playerOneSubtractFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mRR-6b-sZ9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNZ-Nc-rSv">
