@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var playerOneLife: UILabel!
+    /*@IBOutlet weak var playerOneLife: UILabel!
     var playerOneLifeCount = 20
     
     @IBOutlet weak var playerTwoLife: UILabel!
@@ -23,15 +23,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var playerFourLife: UILabel!
     var playerFourLifeCount = 20
     
-    @IBOutlet weak var loserDisplay: UILabel!
+    @IBOutlet weak var loserDisplay: UILabel!*/
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        playerOneLife.text = String(playerOneLifeCount)
+        /*playerOneLife.text = String(playerOneLifeCount)
         playerTwoLife.text = String(playerTwoLifeCount)
         playerThreeLife.text = String(playerTwoLifeCount)
-        playerFourLife.text = String(playerFourLifeCount)
+        playerFourLife.text = String(playerFourLifeCount)*/
     }
     
     
