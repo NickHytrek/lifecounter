@@ -32,9 +32,8 @@ class ViewController: UIViewController {
         playerTwoLife.text = String(playerTwoLifeCount)
         playerThreeLife.text = String(playerTwoLifeCount)
         playerFourLife.text = String(playerFourLifeCount)
-
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
     /*Player One Buttons */
     @IBAction func playerOneAddFive(_ sender: UIButton) {
         playerOneLifeCount = playerOneLifeCount + 5
@@ -185,7 +184,7 @@ class ViewController: UIViewController {
     }
     /************************************************************/
     
-
+    
 }
 
 
