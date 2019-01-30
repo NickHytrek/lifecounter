@@ -12,6 +12,7 @@
 		9FB03ADB21FF8C2000A4BCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB03AD921FF8C2000A4BCCA /* Main.storyboard */; };
 		9FB03ADD21FF8C2200A4BCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB03ADC21FF8C2200A4BCCA /* Assets.xcassets */; };
 		9FB03AE021FF8C2200A4BCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB03ADE21FF8C2200A4BCCA /* LaunchScreen.storyboard */; };
+		9FB6590822024797004C68CC /* historyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6590722024797004C68CC /* historyPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9FB03ADC21FF8C2200A4BCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB03ADF21FF8C2200A4BCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB03AE121FF8C2200A4BCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB6590722024797004C68CC /* historyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 			children = (
 				9FB03AD521FF8C2000A4BCCA /* AppDelegate.swift */,
 				9FB03AD721FF8C2000A4BCCA /* ViewController.swift */,
+				9FB6590722024797004C68CC /* historyPageViewController.swift */,
 				9FB03AD921FF8C2000A4BCCA /* Main.storyboard */,
-				9FB03ADC21FF8C2200A4BCCA /* Assets.xcassets */,
 				9FB03ADE21FF8C2200A4BCCA /* LaunchScreen.storyboard */,
+				9FB03ADC21FF8C2200A4BCCA /* Assets.xcassets */,
 				9FB03AE121FF8C2200A4BCCA /* Info.plist */,
 			);
 			path = lifecounter;
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					9FB03AD121FF8C2000A4BCCA = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB03AD821FF8C2000A4BCCA /* ViewController.swift in Sources */,
+				9FB6590822024797004C68CC /* historyPageViewController.swift in Sources */,
 				9FB03AD621FF8C2000A4BCCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = lifecounter/Info.plist;
@@ -291,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.washington.nhytrek.lifecounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = lifecounter/Info.plist;
