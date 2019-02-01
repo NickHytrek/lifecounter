@@ -11,10 +11,14 @@ import UIKit
 class historyPageViewController: UIViewController {
 
     @IBOutlet weak var historyLabel: UILabel!
+    var finalHistory = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(finalHistory + " 5")
+        historyLabel.text = finalHistory
+        print(historyLabel.text! + " 6")
+        historyLabel.text = finalHistory
         // Do any additional setup after loading the view.
     }
     
