@@ -131,6 +131,102 @@ class ViewController: UIViewController {
             playerTwoLifeCount = playerTwoLifeCount + Int(textFieldPlayerTwo.text!)!
             playerTwoLife.text = String(playerTwoLifeCount)
             break
+        case 31:
+            playerThreeLifeCount = playerThreeLifeCount - 1
+            playerThreeLife.text = String(playerThreeLifeCount)
+            break
+        case 32:
+            playerThreeLifeCount = playerThreeLifeCount + 1
+            playerThreeLife.text = String(playerThreeLifeCount)
+            break
+        case 33:
+            playerThreeLifeCount = playerThreeLifeCount - Int(textFieldPlayerThree.text!)!
+            playerThreeLife.text = String(playerThreeLifeCount)
+            break
+        case 34:
+            playerThreeLifeCount = playerThreeLifeCount + Int(textFieldPlayerThree.text!)!
+            playerThreeLife.text = String(playerThreeLifeCount)
+            break
+        case 41:
+            playerFourLifeCount = playerFourLifeCount - 1
+            playerFourLife.text = String(playerFourLifeCount)
+            break
+        case 42:
+            playerFourLifeCount = playerFourLifeCount + 1
+            playerFourLife.text = String(playerFourLifeCount)
+            break
+        case 43:
+            playerFourLifeCount = playerFourLifeCount - Int(textFieldPlayerFour.text!)!
+            playerFourLife.text = String(playerFourLifeCount)
+            break
+        case 44:
+            playerFourLifeCount = playerFourLifeCount + Int(textFieldPlayerFour.text!)!
+            playerFourLife.text = String(playerFourLifeCount)
+            break
+        case 51:
+            playerFiveLifeCount = playerFiveLifeCount - 1
+            playerFiveLife.text = String(playerFiveLifeCount)
+            break
+        case 52:
+            playerFiveLifeCount = playerFiveLifeCount + 1
+            playerFiveLife.text = String(playerFiveLifeCount)
+            break
+        case 53:
+            playerFiveLifeCount = playerFiveLifeCount - Int(textFieldPlayerFive.text!)!
+            playerFiveLife.text = String(playerFiveLifeCount)
+            break
+        case 54:
+            playerFiveLifeCount = playerFiveLifeCount + Int(textFieldPlayerFive.text!)!
+            playerFiveLife.text = String(playerFiveLifeCount)
+            break
+        case 61:
+            playerSixLifeCount = playerSixLifeCount - 1
+            playerSixLife.text = String(playerSixLifeCount)
+            break
+        case 62:
+            playerSixLifeCount = playerSixLifeCount + 1
+            playerSixLife.text = String(playerSixLifeCount)
+            break
+        case 63:
+            playerSixLifeCount = playerSixLifeCount - Int(textFieldPlayerSix.text!)!
+            playerSixLife.text = String(playerSixLifeCount)
+            break
+        case 64:
+            playerSixLifeCount = playerSixLifeCount + Int(textFieldPlayerSix.text!)!
+            playerSixLife.text = String(playerSixLifeCount)
+            break
+        case 71:
+            playerSevenLifeCount = playerSevenLifeCount - 1
+            playerSevenLife.text = String(playerSevenLifeCount)
+            break
+        case 72:
+            playerSevenLifeCount = playerSevenLifeCount + 1
+            playerSevenLife.text = String(playerSevenLifeCount)
+            break
+        case 73:
+            playerSevenLifeCount = playerSevenLifeCount - Int(textFieldPlayerSeven.text!)!
+            playerSevenLife.text = String(playerSevenLifeCount)
+            break
+        case 74:
+            playerSevenLifeCount = playerSevenLifeCount + Int(textFieldPlayerSeven.text!)!
+            playerSevenLife.text = String(playerSevenLifeCount)
+            break
+        case 81:
+            playerEightLifeCount = playerEightLifeCount - 1
+            playerEightLife.text = String(playerEightLifeCount)
+            break
+        case 82:
+            playerEightLifeCount = playerEightLifeCount + 1
+            playerEightLife.text = String(playerEightLifeCount)
+            break
+        case 83:
+            playerEightLifeCount = playerEightLifeCount - Int(textFieldPlayerEight.text!)!
+            playerEightLife.text = String(playerEightLifeCount)
+            break
+        case 84:
+            playerEightLifeCount = playerEightLifeCount + Int(textFieldPlayerEight.text!)!
+            playerEightLife.text = String(playerEightLifeCount)
+            break
         default:
             break
         }
