@@ -15,12 +15,9 @@ class historyPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(finalHistory + " 5")
         historyLabel.text = finalHistory
-        print(historyLabel.text! + " 6")
-        let temp = finalHistory
-        print(temp)
-        historyLabel.text = temp
+        print(historyLabel.text!)
+
         // Do any additional setup after loading the view.
     }
     
