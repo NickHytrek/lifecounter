@@ -10,6 +10,8 @@ import UIKit
 
 class historyPageViewController: UIViewController {
 
+    @IBOutlet weak var historyLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
