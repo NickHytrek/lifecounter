@@ -18,7 +18,9 @@ class historyPageViewController: UIViewController {
         print(finalHistory + " 5")
         historyLabel.text = finalHistory
         print(historyLabel.text! + " 6")
-        historyLabel.text = finalHistory
+        let temp = finalHistory
+        print(temp)
+        historyLabel.text = temp
         // Do any additional setup after loading the view.
     }
     
