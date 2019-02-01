@@ -106,6 +106,7 @@ class ViewController: UIViewController {
             playerOneLife.text = String(playerOneLifeCount)
             if playerOneLifeCount <= 0 {
                 loserDisplay.text = "Player 1 LOSES!"
+                 history = history + "\nPlayer 1 LOSES!"
             }
             history = history + "\nPlayer 1 loses 1 health"
             print (history + " 1")
@@ -120,6 +121,7 @@ class ViewController: UIViewController {
             playerOneLife.text = String(playerOneLifeCount)
             if playerOneLifeCount <= 0 {
                 loserDisplay.text = "Player 1 LOSES!"
+                 history = history + "\nPlayer 1 LOSES!"
             }
             history = history + "\nPlayer 1 loses /(textFieldPlayerOne.text) health"
             break
@@ -133,6 +135,7 @@ class ViewController: UIViewController {
             playerTwoLife.text = String(playerTwoLifeCount)
             if playerTwoLifeCount <= 0 {
                 loserDisplay.text = "Player 2 LOSES!"
+                 history = history + "\nPlayer 2 LOSES!"
             }
             history = history + "\nPlayer 2 loses 1 health"
             break
@@ -146,6 +149,7 @@ class ViewController: UIViewController {
             playerTwoLife.text = String(playerTwoLifeCount)
             if playerTwoLifeCount <= 0 {
                 loserDisplay.text = "Player 2 LOSES!"
+                history = history + "\nPlayer 2 LOSES!"
             }
             history = history + "\nPlayer 2 loses /(textFieldPlayerTwo.text) health"
             break
@@ -159,6 +163,7 @@ class ViewController: UIViewController {
             playerThreeLife.text = String(playerThreeLifeCount)
             if playerThreeLifeCount <= 0 {
                 loserDisplay.text = "Player 3 LOSES!"
+                 history = history + "\nPlayer 3 LOSES!"
             }
             history = history + "\nPlayer 3 loses 1 health"
             break
@@ -172,6 +177,7 @@ class ViewController: UIViewController {
             playerThreeLife.text = String(playerThreeLifeCount)
             if playerThreeLifeCount <= 0 {
                 loserDisplay.text = "Player 3 LOSES!"
+                 history = history + "\nPlayer 3 LOSES!"
             }
             history = history + "\nPlayer 3 loses /(textFieldPlayerThree.text) health"
             break
@@ -185,6 +191,7 @@ class ViewController: UIViewController {
             playerFourLife.text = String(playerFourLifeCount)
             if playerFourLifeCount <= 0 {
                 loserDisplay.text = "Player 4 LOSES!"
+                 history = history + "\nPlayer 4 LOSES!"
             }
             history = history + "\nPlayer 4 loses 1 health"
             break
@@ -198,6 +205,7 @@ class ViewController: UIViewController {
             playerFourLife.text = String(playerFourLifeCount)
             if playerFourLifeCount <= 0 {
                 loserDisplay.text = "Player 4 LOSES!"
+                 history = history + "\nPlayer 4 LOSES!"
             }
             history = history + "\nPlayer 4 loses /(textFieldPlayerFour.text) health"
             break
@@ -211,6 +219,7 @@ class ViewController: UIViewController {
             playerFiveLife.text = String(playerFiveLifeCount)
             if playerFiveLifeCount <= 0 {
                 loserDisplay.text = "Player 5 LOSES!"
+                 history = history + "\nPlayer 5 LOSES!"
             }
             history = history + "\nPlayer 5 loses 1 health"
             break
@@ -224,6 +233,7 @@ class ViewController: UIViewController {
             playerFiveLife.text = String(playerFiveLifeCount)
             if playerFiveLifeCount <= 0 {
                 loserDisplay.text = "Player 5 LOSES!"
+                 history = history + "\nPlayer 5 LOSES!"
             }
             history = history + "\nPlayer 5 loses /(textFieldPlayerFive.text) health"
             break
@@ -237,6 +247,7 @@ class ViewController: UIViewController {
             playerSixLife.text = String(playerSixLifeCount)
             if playerSixLifeCount <= 0 {
                 loserDisplay.text = "Player 6 LOSES!"
+                 history = history + "\nPlayer 6 LOSES!"
             }
             history = history + "\nPlayer 6 loses 1 health"
             break
@@ -250,6 +261,7 @@ class ViewController: UIViewController {
             playerSixLife.text = String(playerSixLifeCount)
             if playerSixLifeCount <= 0 {
                 loserDisplay.text = "Player 6 LOSES!"
+                 history = history + "\nPlayer 6 LOSES!"
             }
             history = history + "\nPlayer 6 loses /(textFieldPlayerSix.text) health"
             break
@@ -263,6 +275,7 @@ class ViewController: UIViewController {
             playerSevenLife.text = String(playerSevenLifeCount)
             if playerSevenLifeCount <= 0 {
                 loserDisplay.text = "Player 7 LOSES!"
+                 history = history + "\nPlayer 7 LOSES!"
             }
             history = history + "\nPlayer 7 loses 1 health"
             break
@@ -276,6 +289,7 @@ class ViewController: UIViewController {
             playerSevenLife.text = String(playerSevenLifeCount)
             if playerSevenLifeCount <= 0 {
                 loserDisplay.text = "Player 7 LOSES!"
+                 history = history + "\nPlayer 7 LOSES!"
             }
             history = history + "\nPlayer 7 loses /(textFieldPlayerSeven.text) health"
             break
@@ -289,6 +303,7 @@ class ViewController: UIViewController {
             playerEightLife.text = String(playerEightLifeCount)
             if playerEightLifeCount <= 0 {
                 loserDisplay.text = "Player 8 LOSES!"
+                 history = history + "\nPlayer 8 LOSES!"
             }
             history = history + "\nPlayer 8 loses 1 health"
             break
@@ -302,6 +317,7 @@ class ViewController: UIViewController {
             playerEightLife.text = String(playerEightLifeCount)
             if playerEightLifeCount <= 0 {
                 loserDisplay.text = "Player 8 LOSES!"
+                history = history + "\nPlayer 8 LOSES!"
             }
             history = history + "\nPlayer 8 loses /(textFieldPlayerEight.text) health"
             break
