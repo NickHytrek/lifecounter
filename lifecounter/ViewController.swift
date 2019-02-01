@@ -109,7 +109,6 @@ class ViewController: UIViewController {
                  history = history + "\nPlayer 1 LOSES!"
             }
             history = history + "\nPlayer 1 loses 1 health"
-            print (history + " 1")
             break
         case 12:
             playerOneLifeCount = playerOneLifeCount + 1
@@ -123,12 +122,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 1 LOSES!"
                  history = history + "\nPlayer 1 LOSES!"
             }
-            history = history + "\nPlayer 1 loses /(textFieldPlayerOne.text) health"
+            history = history + "\nPlayer 1 loses " + textFieldPlayerFour.text! + " health"
             break
         case 14:
             playerOneLifeCount = playerOneLifeCount + Int(textFieldPlayerOne.text!)!
             playerOneLife.text = String(playerOneLifeCount)
-            history = history + "\nPlayer 1 gains /(textFieldPlayerOne.text) health"
+            history = history + "\nPlayer 1 gains " + textFieldPlayerFour.text! + " health"
             break
         case 21:
             playerTwoLifeCount = playerTwoLifeCount - 1
@@ -151,12 +150,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 2 LOSES!"
                 history = history + "\nPlayer 2 LOSES!"
             }
-            history = history + "\nPlayer 2 loses /(textFieldPlayerTwo.text) health"
+            history = history + "\nPlayer 2 loses " + textFieldPlayerFour.text! + " health"
             break
         case 24:
             playerTwoLifeCount = playerTwoLifeCount + Int(textFieldPlayerTwo.text!)!
             playerTwoLife.text = String(playerTwoLifeCount)
-            history = history + "\nPlayer 2 gains /(textFieldPlayerTwo.text) health"
+            history = history + "\nPlayer 2 gains " + textFieldPlayerFour.text! + " health"
             break
         case 31:
             playerThreeLifeCount = playerThreeLifeCount - 1
@@ -179,12 +178,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 3 LOSES!"
                  history = history + "\nPlayer 3 LOSES!"
             }
-            history = history + "\nPlayer 3 loses /(textFieldPlayerThree.text) health"
+            history = history + "\nPlayer 3 loses " + textFieldPlayerFour.text! + " health"
             break
         case 34:
             playerThreeLifeCount = playerThreeLifeCount + Int(textFieldPlayerThree.text!)!
             playerThreeLife.text = String(playerThreeLifeCount)
-            history = history + "\nPlayer 3 gains /(textFieldPlayerThree.text) health"
+            history = history + "\nPlayer 3 gains " + textFieldPlayerFour.text! + " health"
             break
         case 41:
             playerFourLifeCount = playerFourLifeCount - 1
@@ -207,12 +206,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 4 LOSES!"
                  history = history + "\nPlayer 4 LOSES!"
             }
-            history = history + "\nPlayer 4 loses /(textFieldPlayerFour.text) health"
+            history = history + "\nPlayer 4 loses " + textFieldPlayerFour.text! + " health"
             break
         case 44:
             playerFourLifeCount = playerFourLifeCount + Int(textFieldPlayerFour.text!)!
             playerFourLife.text = String(playerFourLifeCount)
-            history = history + "\nPlayer 4 gains /(textFieldPlayerFour.text) health"
+            history = history + "\nPlayer 4 gains " + textFieldPlayerFour.text! + " health"
             break
         case 51:
             playerFiveLifeCount = playerFiveLifeCount - 1
@@ -235,12 +234,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 5 LOSES!"
                  history = history + "\nPlayer 5 LOSES!"
             }
-            history = history + "\nPlayer 5 loses /(textFieldPlayerFive.text) health"
+            history = history + "\nPlayer 5 loses " + textFieldPlayerFour.text! + " health"
             break
         case 54:
             playerFiveLifeCount = playerFiveLifeCount + Int(textFieldPlayerFive.text!)!
             playerFiveLife.text = String(playerFiveLifeCount)
-            history = history + "\nPlayer 5 gains /(textFieldPlayerFive.text) health"
+            history = history + "\nPlayer 5 gains " + textFieldPlayerFour.text! + " health"
             break
         case 61:
             playerSixLifeCount = playerSixLifeCount - 1
@@ -263,12 +262,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 6 LOSES!"
                  history = history + "\nPlayer 6 LOSES!"
             }
-            history = history + "\nPlayer 6 loses /(textFieldPlayerSix.text) health"
+            history = history + "\nPlayer 6 loses " + textFieldPlayerFour.text! + " health"
             break
         case 64:
             playerSixLifeCount = playerSixLifeCount + Int(textFieldPlayerSix.text!)!
             playerSixLife.text = String(playerSixLifeCount)
-            history = history + "\nPlayer 6 gains /(textFieldPlayerSix.text) health"
+            history = history + "\nPlayer 6 gains " + textFieldPlayerFour.text! + " health"
             break
         case 71:
             playerSevenLifeCount = playerSevenLifeCount - 1
@@ -291,12 +290,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 7 LOSES!"
                  history = history + "\nPlayer 7 LOSES!"
             }
-            history = history + "\nPlayer 7 loses /(textFieldPlayerSeven.text) health"
+            history = history + "\nPlayer 7 loses " + textFieldPlayerFour.text! + " health"
             break
         case 74:
             playerSevenLifeCount = playerSevenLifeCount + Int(textFieldPlayerSeven.text!)!
             playerSevenLife.text = String(playerSevenLifeCount)
-            history = history + "\nPlayer 7 gains /(textFieldPlayerSeven.text) health"
+            history = history + "\nPlayer 7 gains " + textFieldPlayerFour.text! + " health"
             break
         case 81:
             playerEightLifeCount = playerEightLifeCount - 1
@@ -319,12 +318,12 @@ class ViewController: UIViewController {
                 loserDisplay.text = "Player 8 LOSES!"
                 history = history + "\nPlayer 8 LOSES!"
             }
-            history = history + "\nPlayer 8 loses /(textFieldPlayerEight.text) health"
+            history = history + "\nPlayer 8 loses " + textFieldPlayerFour.text! + " health"
             break
         case 84:
             playerEightLifeCount = playerEightLifeCount + Int(textFieldPlayerEight.text!)!
             playerEightLife.text = String(playerEightLifeCount)
-            history = history + "\nPlayer 8 gains /(textFieldPlayerEight.text) health"
+            history = history + "\nPlayer 8 gains " + textFieldPlayerFour.text! + " health"
             break
         default:
             break
@@ -333,14 +332,11 @@ class ViewController: UIViewController {
     
     @IBAction func viewHistory(_ sender: UIButton) {
         performSegue(withIdentifier: "history", sender: self)
-        print (history + " 2")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! historyPageViewController
-        print(self.history + " 3")
         vc.finalHistory = self.history
-        print(vc.finalHistory + " 4")
     }
     
     
